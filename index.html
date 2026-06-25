@@ -53,7 +53,15 @@
 
       <div class="hero-right">
         <div class="profile-card">
-          <img src="profile-photo.jpg" alt="Duygu Duman" class="profile-photo" />
+          <div class="profile-image-wrap">
+            <img 
+              src="profile.jpg" 
+              alt="Duygu Duman" 
+              class="profile-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <div class="profile-fallback">DD</div>
+          </div>
           <h3>Duygu Duman</h3>
           <p>Neuroscientist</p>
           <p class="small-muted">Biomedical Engineering MSc</p>
