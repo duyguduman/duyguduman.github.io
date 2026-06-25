@@ -6,11 +6,14 @@
   <title>Duygu Duman | Neuroscientist</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+  <div class="bg-grid"></div>
+
   <header class="site-header">
     <nav class="navbar">
-      <div class="logo">Duygu Duman</div>
+      <a href="#" class="logo">Duygu Duman</a>
 
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
@@ -24,213 +27,224 @@
 
   <main>
     <section class="hero">
-      <div class="hero-text">
-        <p class="small-title">Neuroscience • EEG • Brain Connectivity</p>
+      <div class="hero-left">
+        <p class="hero-label">Neuroscience • EEG • Brain Connectivity • Machine Learning</p>
         <h1>Duygu Duman</h1>
         <h2>Neuroscientist & Biomedical Engineer</h2>
 
-        <p class="hero-description">
-          I am interested in brain connectivity, EEG-based neurophysiological markers,
-          aging, multimodal neuroscience, and the interaction between brain, body,
-          and environment.
+        <p class="hero-text">
+          I study brain connectivity, EEG-based neural dynamics, aging, and
+          multimodal neurophysiological markers. My work focuses on how brain
+          networks organize, change, and respond to internal and environmental stimuli.
         </p>
 
+        <div class="hero-tags">
+          <span>EEG</span>
+          <span>Graph Theory</span>
+          <span>Machine Learning</span>
+          <span>Environmental Neuroscience</span>
+        </div>
+
         <div class="hero-buttons">
-          <a href="#contact" class="btn primary">Contact Me</a>
-          <a href="#publications" class="btn secondary">View Publications</a>
+          <a href="#publications" class="btn btn-primary">View Publications</a>
+          <a href="#contact" class="btn btn-secondary">Contact</a>
         </div>
       </div>
 
-      <div class="hero-card">
-        <img src="profile.jpg" alt="Duygu Duman" class="profile-photo">
-        <p>Biomedical Engineering MSc</p>
-        <p>EEG • Graph Theory • Machine Learning</p>
+      <div class="hero-right">
+        <div class="profile-card">
+          <img src="profile-photo.jpg" alt="Duygu Duman" class="profile-photo" />
+          <h3>Duygu Duman</h3>
+          <p>Neuroscientist</p>
+          <p class="small-muted">Biomedical Engineering MSc</p>
+        </div>
       </div>
     </section>
 
     <section id="about" class="section">
-      <h2>About</h2>
-      <p>
-        I am Duygu Duman, a neuroscientist with a background in Biomedical Engineering.
-        My research focuses on EEG signal analysis, functional and effective connectivity,
-        graph theoretical approaches, and machine learning-based classification of brain
-        network organization.
-      </p>
+      <div class="section-title-wrap">
+        <span class="section-kicker">01</span>
+        <h2>About Me</h2>
+      </div>
 
-      <p>
-        My recent work investigates how aging affects brain network organization using
-        resting-state EEG, connectivity analyses, and machine learning. I am also interested
-        in environmental neuroscience, especially how natural, urban, and degraded landscapes
-        affect stress, attention, and neurophysiological responses.
-      </p>
+      <div class="glass-card">
+        <p>
+          I am a neuroscientist with a background in Biomedical Engineering.
+          My research focuses on EEG signal analysis, functional and effective
+          connectivity, graph theory, and machine learning-based classification
+          of brain network organization.
+        </p>
+
+        <p>
+          I am particularly interested in resting-state EEG, age-related changes
+          in brain networks, and multimodal approaches that connect brain, body,
+          and environment. My recent work also extends into environmental neuroscience,
+          examining neurophysiological responses to natural and degraded landscapes.
+        </p>
+      </div>
     </section>
 
     <section id="research" class="section">
-      <h2>Research Interests</h2>
+      <div class="section-title-wrap">
+        <span class="section-kicker">02</span>
+        <h2>Research Interests</h2>
+      </div>
 
-      <div class="cards">
-        <div class="card">
+      <div class="card-grid">
+        <div class="glass-card hover-card">
           <h3>EEG & Brain Connectivity</h3>
           <p>
             Functional and effective connectivity analyses including iCOH, PDC, and DTF.
           </p>
         </div>
 
-        <div class="card">
+        <div class="glass-card hover-card">
           <h3>Graph Theory</h3>
           <p>
-            Brain network metrics such as global efficiency, modularity, clustering,
-            path length, and nodal centrality.
+            Complex brain network metrics such as global efficiency, modularity,
+            clustering, path length, and nodal centrality.
           </p>
         </div>
 
-        <div class="card">
+        <div class="glass-card hover-card">
           <h3>Machine Learning</h3>
           <p>
             Classification of age-related brain network patterns using EEG-derived features.
           </p>
         </div>
 
-        <div class="card">
+        <div class="glass-card hover-card">
           <h3>Environmental Neuroscience</h3>
           <p>
-            Multimodal assessment of natural and degraded environments using EEG,
-            posturography, autonomic and behavioral measures.
+            Investigation of neurophysiological responses to natural, urban,
+            and degraded environments.
           </p>
         </div>
       </div>
     </section>
 
     <section id="education" class="section">
-      <h2>Education</h2>
+      <div class="section-title-wrap">
+        <span class="section-kicker">03</span>
+        <h2>Education & Experience</h2>
+      </div>
 
       <div class="timeline">
-        <div class="timeline-item">
+        <div class="timeline-item glass-card">
           <h3>MSc in Biomedical Engineering</h3>
-          <p>İzmir Kâtip Çelebi University</p>
-          <span>Thesis: Investigating the Effect of Aging on Brain Network Organization Using Brain Connectivity Analyses and Machine Learning-Based Age Classification</span>
+          <p class="timeline-place">İzmir Kâtip Çelebi University</p>
+          <p>
+            Thesis: <em>Investigating the Effect of Aging on Brain Network Organization
+            Using Brain Connectivity Analyses and Machine Learning-Based Age Classification</em>
+          </p>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item glass-card">
           <h3>Research Internship</h3>
-          <p>Laboratoire de Neurosciences Fonctionnelles et Pathologies, UPJV, France</p>
-          <span>EEG, posturography, experimental design, multimodal neurophysiological data acquisition.</span>
+          <p class="timeline-place">UPJV, Laboratoire de Neurosciences Fonctionnelles et Pathologies, France</p>
+          <p>
+            Worked on EEG, posturography, multimodal neurophysiology, and experimental paradigms.
+          </p>
+        </div>
+
+        <div class="timeline-item glass-card">
+          <h3>Research Areas</h3>
+          <p class="timeline-place">Neuroscience • Biomedical Engineering</p>
+          <p>
+            Resting-state EEG, graph theoretical brain network analysis, machine learning,
+            and environmental neurophysiology.
+          </p>
         </div>
       </div>
     </section>
 
     <section id="publications" class="section">
-  <h2>Publications</h2>
+      <div class="section-title-wrap">
+        <span class="section-kicker">04</span>
+        <h2>Publications</h2>
+      </div>
 
-  <p class="note">
-    Selected peer-reviewed publications and conference papers. Earlier publications were published under the name Duygu Degirmenci / Duygu Değirmenci.
-  </p>
+      <p class="section-note">
+        Earlier publications were published under the name
+        <strong>Duygu Degirmenci / Duygu Değirmenci</strong>.
+      </p>
 
-  <div class="publication">
-    <h3>Journal Articles</h3>
-
-    <p>
-      Kizilisik, S., <strong>Duman, D.</strong>, Zitouni, A., Campanella, S., Aarabi, A., Akounach, M., & Mouras, H. (2026).
-      <strong>Brain signature of food and alcohol stimuli processing: A comparative EEG study.</strong>
-      <em>Frontiers in Human Neuroscience, 20</em>, 1748993.
-      <a href="https://doi.org/10.3389/fnhum.2026.1748993" target="_blank">https://doi.org/10.3389/fnhum.2026.1748993</a>
-    </p>
-
-    <p>
-      Akounach, M., Yigitalp, B. M., Kizilisik, S., <strong>Duman, D.</strong>, Aarabi, A., Lelard, T., & Mouras, H. (2026).
-      <strong>Neural signatures of environmental perception: EEG and postural markers differentiate responses to polluted vs. pleasant landscapes.</strong>
-      <em>Journal of Environmental Psychology, 111</em>, 103001.
-      <a href="https://doi.org/10.1016/j.jenvp.2026.103001" target="_blank">https://doi.org/10.1016/j.jenvp.2026.103001</a>
-    </p>
-
-    <p>
-      <strong>Duman, D.</strong>, Kızılışık, S., Zitouni, A., Campanella, S., Lelard, T., Akounach, M., & Mouras, H. (2025).
-      <strong>Postural correlates of visual incentives: Application to food and alcohol stimuli.</strong>
-      <em>Frontiers in Psychology, 16</em>, 1612425.
-      <a href="https://doi.org/10.3389/fpsyg.2025.1612425" target="_blank">https://doi.org/10.3389/fpsyg.2025.1612425</a>
-    </p>
-  </div>
-
-  <div class="publication">
-    <h3>Conference Papers</h3>
-
-    <p>
-      <strong>Degirmenci, D.</strong>, Ozdemir, M. A., Guren, O., & Onan, A. (2022).
-      <strong>Synchrosqueezing transform and non-negative matrix factorization based feature extraction from EEG signals for motor imagery classification.</strong>
-      <em>2022 Medical Technologies Congress (TIPTEKNO)</em>.
-      <a href="https://doi.org/10.1109/TIPTEKNO56568.2022.9960236" target="_blank">https://doi.org/10.1109/TIPTEKNO56568.2022.9960236</a>
-    </p>
-
-    <p>
-      <strong>Değirmenci, D.</strong>, Yalçın, M., Özdemir, M. A., & Akan, A. (2020).
-      <strong>Synchrosqueezing transform in biomedical applications: A mini review.</strong>
-      <em>2020 Medical Technologies Congress (TIPTEKNO)</em>.
-      <a href="https://doi.org/10.1109/TIPTEKNO50054.2020.9299225" target="_blank">https://doi.org/10.1109/TIPTEKNO50054.2020.9299225</a>
-    </p>
-  </div>
-
-  <div class="publication">
-    <h3>Research Profiles</h3>
-
-    <p>
-      <a href="https://www.researchgate.net/profile/Duygu-Duman-6" target="_blank">ResearchGate</a>
-      |
-      <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
-      |
-      <a href="https://orcid.org/" target="_blank">ORCID</a>
-    </p>
-  </div>
-</section>
-
-    <section id="projects" class="section">
-      <h2>Selected Projects</h2>
-
-      <div class="cards">
-        <div class="card">
-          <h3>Aging & Brain Networks</h3>
+      <div class="pub-list">
+        <div class="publication-card glass-card">
           <p>
-            Resting-state EEG analysis using connectivity measures, graph theory,
-            and machine learning to investigate age-related changes in brain networks.
+            Kizilisik, S., <strong>Duman, D.</strong>, Zitouni, A., Campanella, S., Aarabi, A.,
+            Akounach, M., & Mouras, H. (2026).
+            <span class="pub-title">Brain signature of food and alcohol stimuli processing: A comparative EEG study.</span>
+            <em>Frontiers in Human Neuroscience, 20</em>, 1748993.
           </p>
+          <a href="https://doi.org/10.3389/fnhum.2026.1748993" target="_blank">DOI</a>
         </div>
 
-        <div class="card">
-          <h3>Environmental Neurophysiology</h3>
+        <div class="publication-card glass-card">
           <p>
-            Investigation of natural, neutral, and degraded landscapes using immersive
-            experimental paradigms and multimodal physiological recordings.
+            Akounach, M., Yigitalp, B. M., Kizilisik, S., <strong>Duman, D.</strong>, Aarabi, A.,
+            Lelard, T., & Mouras, H. (2026).
+            <span class="pub-title">Neural signatures of environmental perception: EEG and postural markers differentiate responses to polluted vs. pleasant landscapes.</span>
+            <em>Journal of Environmental Psychology, 111</em>, 103001.
           </p>
+          <a href="https://doi.org/10.1016/j.jenvp.2026.103001" target="_blank">DOI</a>
         </div>
 
-        <div class="card">
-          <h3>Stroke & rTMS EEG Analysis</h3>
+        <div class="publication-card glass-card">
           <p>
-            EEG preprocessing and quantitative EEG analysis in a neuromodulation-related
-            research project.
+            <strong>Duman, D.</strong>, Kızılışık, S., Zitouni, A., Campanella, S., Lelard, T.,
+            Akounach, M., & Mouras, H. (2025).
+            <span class="pub-title">Postural correlates of visual incentives: Application to food and alcohol stimuli.</span>
+            <em>Frontiers in Psychology, 16</em>, 1612425.
           </p>
+          <a href="https://doi.org/10.3389/fpsyg.2025.1612425" target="_blank">DOI</a>
+        </div>
+
+        <div class="publication-card glass-card">
+          <p>
+            <strong>Degirmenci, D.</strong>, Ozdemir, M. A., Guren, O., & Onan, A. (2022).
+            <span class="pub-title">Synchrosqueezing transform and non-negative matrix factorization based feature extraction from EEG signals for motor imagery classification.</span>
+            <em>2022 Medical Technologies Congress (TIPTEKNO)</em>.
+          </p>
+          <a href="https://doi.org/10.1109/TIPTEKNO56568.2022.9960236" target="_blank">DOI</a>
+        </div>
+
+        <div class="publication-card glass-card">
+          <p>
+            <strong>Değirmenci, D.</strong>, Yalçın, M., Özdemir, M. A., & Akan, A. (2020).
+            <span class="pub-title">Synchrosqueezing transform in biomedical applications: A mini review.</span>
+            <em>2020 Medical Technologies Congress (TIPTEKNO)</em>.
+          </p>
+          <a href="https://doi.org/10.1109/TIPTEKNO50054.2020.9299225" target="_blank">DOI</a>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section">
-      <h2>Contact</h2>
-      <p>
-        For academic collaboration, research opportunities, or scientific communication,
-        feel free to contact me.
-      </p>
+    <section id="contact" class="section">
+      <div class="section-title-wrap">
+        <span class="section-kicker">05</span>
+        <h2>Contact</h2>
+      </div>
 
-      <div class="contact-links">
-        <a href="mailto:your.email@example.com">your.email@example.com</a>
-        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/" target="_blank">GitHub</a>
-        <a href="https://www.researchgate.net/" target="_blank">ResearchGate</a>
-        <a href="https://orcid.org/" target="_blank">ORCID</a>
+      <div class="glass-card contact-card">
+        <p>
+          For collaborations, PhD opportunities, scientific communication,
+          or research-related inquiries, feel free to contact me.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:yourmail@example.com">Email</a>
+          <a href="https://www.researchgate.net/profile/Duygu-Duman-6" target="_blank">ResearchGate</a>
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/duyguduman" target="_blank">GitHub</a>
+          <a href="https://orcid.org/" target="_blank">ORCID</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> Duygu Duman. All rights reserved.</p>
+    <p>© <span id="year"></span> Duygu Duman — Neuroscience Portfolio</p>
   </footer>
 
   <script src="script.js"></script>
